@@ -1,5 +1,5 @@
 {
-	"name": "hongjh/TinyMemcache",
+	"name": "hongjh/tiny-memcache",
 	"description": "简易 memcache 操作类",
   "license": "MIT",
   "authors": [
