@@ -100,15 +100,6 @@ class TinyMemcache
     {
         return $this->memcache->add($key, '1', false, $expire);
     }
-
-    
-    public function isLock($key) {
-        $ret = $this->memcache->get($key);
-        if (empty($ret) || $ret === false) {
-            return false;
-        }
-        return true;
-    }
     
     public function unLock($key)
     {
