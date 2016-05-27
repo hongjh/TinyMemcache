@@ -1,6 +1,15 @@
 # TinyMemcache
 Tiny memcache class
 
+### Install
+
+If you have Composer, just include Router as a project dependency in your `composer.json`. If you don't just install it by downloading the .ZIP file and extracting it to your project directory.
+
+```
+require: {
+    "hongjh/tiny-memcache": "dev-master"
+}
+```
 
 ### How to use lock ?
 
@@ -19,4 +28,5 @@ if ($mc->lock($key, $expire)) {
 ```
 
 ### Flow
+![](https://github.com/hongjh/TinyMemcache/blob/master/images/lock-flow.jpg)
 
